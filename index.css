@@ -195,17 +195,17 @@ hr {
 }
 
 a:link {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     margin: 2px;
-    padding: 1px 2px;
+    padding: 1px 2px -2px 2px;
     transition-duration: 0.2s;
 }
 
 a:visited {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 5px;
@@ -217,7 +217,7 @@ a:visited {
 a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 5px;
     margin: 2px;
     padding: 1px 2px;
