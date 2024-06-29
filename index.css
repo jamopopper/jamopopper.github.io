@@ -1,0 +1,138 @@
+@font-face { 
+    font-family: 
+        nfm; 
+        src: url('NFM.otf'); 
+} 
+
+@font-face { 
+    font-family: 
+        nfm; 
+        font-weight: bold; 
+        src: url('NFMB.otf');
+}
+
+body {
+    font-size: 20%;
+}
+
+p {
+    font-family: Cambria, serif;
+    font-size: 35%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 2%;
+}
+
+h1 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5%;
+    padding: 5%;
+}
+
+h2 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 85%;
+    color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5%;
+    padding: 5%;
+}
+
+h3 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 70%;
+    color: rgba(255, 255, 255, 0.72);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5%;
+    padding: 5%;
+}
+
+h4 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 55%;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 2%;
+}
+
+h5 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 50%;
+    color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 2%;
+}
+
+h6 {
+    font-family: nfm;
+    font-weight: bold;
+    font-size: 45%;
+    color: rgba(255, 255, 255, 0.81);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 2%;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5%;
+    padding: 5%;
+}
+
+thead {
+    font-family: Cambria, serif;
+    font-weight: bold;
+    font-size: 40%;
+    color: rgba(255, 255, 255, 0.9);
+    border: 5% solid rgba(0, 0, 0, 0.3);
+    margin: 2%;
+    padding: 2%;
+}
+
+tbody {
+    font-family: Cambria, serif;
+    font-size: 30%;
+    color: rgba(255, 255, 255, 0.9);
+    border: 5% solid rgba(0, 0, 0, 0.3);
+    margin: 2%;
+    padding: 2%;
+
+}
+
+ol,ul {
+    font-family: Cambria, serif;
+    font-size: 35%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 2%;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 2%;
+    padding: 2%;
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 2%;
+    padding: 2%;
+}
