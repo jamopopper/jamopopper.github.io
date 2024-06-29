@@ -95,7 +95,7 @@ h6 {
 }
 
 p:not(blockquote p) {
-    font-family: Cambria, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
@@ -105,7 +105,7 @@ p:not(blockquote p) {
 }
 
 blockquote {
-    font-family: Cambria, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
@@ -124,7 +124,7 @@ table {
 }
 
 thead {
-    font-family: Cambria, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 110%;
     color: rgba(255, 255, 255, 0.9);
@@ -136,7 +136,7 @@ thead {
 }
 
 tbody {
-    font-family: Cambria, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 90%;
     color: rgba(255, 255, 255, 0.9);
     border: 5px solid rgb(0, 0, 0);
@@ -154,7 +154,7 @@ th, td, tr {
 }
 
 ol:not(ol ol), ul:not(ul ul) {
-    font-family: Cambria, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     list-style-position: inside;
     color: rgba(255, 255, 255, 0.9);
@@ -165,7 +165,7 @@ ol:not(ol ol), ul:not(ul ul) {
 }
 
 code:not(pre code) {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.2);
@@ -175,7 +175,7 @@ code:not(pre code) {
 }
 
 pre {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.2);
