@@ -11,13 +11,14 @@
         src: url('NFMB.otf');
 }
 
-body {
-    font-size: 18px;
+html {
     background-image: url("beach_bkg.jpg");
-    background-position: center;
     background-size: cover;
     background-color: rgb(73, 13, 100);
-    height: screen-height;
+}
+
+body {
+    font-size: 18px;
 }
 
 h1 {
