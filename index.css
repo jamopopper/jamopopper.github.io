@@ -14,7 +14,10 @@
 body {
     font-size: 18px;
     background-image: url("beach_bkg.jpg");
+    background-position: center;
+    background-size: cover;
     background-color: rgb(73, 13, 100);
+    height: max-content;
 }
 
 h1 {
