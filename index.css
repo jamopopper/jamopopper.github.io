@@ -123,14 +123,13 @@ tbody {
 
 }
 
-th,
-td {
+th, td {
+    border-radius: 5px;
     margin: 2px;
     padding: 10px;
 }
 
-ol:not(ol ol),
-ul:not(ul ul) {
+ol:not(ol ol), ul:not(ul ul) {
     font-family: Cambria, serif;
     font-size: 100%;
     list-style-position: inside;
@@ -163,7 +162,7 @@ pre {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: 10px;
-    padding: 2px;
+    padding: 4px;
 }
 
 a:link {
