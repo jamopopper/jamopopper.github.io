@@ -16,16 +16,6 @@ body {
     background-color: rgb(73, 13, 100);
 }
 
-p {
-    font-family: Cambria, serif;
-    font-size: 100%;
-    color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-}
-
 h1 {
     font-family: nfm;
     font-weight: bold;
@@ -36,6 +26,7 @@ h1 {
     margin: 2px;
     margin-top: 10px;
     padding: 10px;
+    width: min-content;
 }
 
 h2 {
@@ -48,6 +39,7 @@ h2 {
     margin: 2px;
     margin-top: 10px;
     padding: 10px;
+    width: min-content;
 }
 
 h3 {
@@ -60,6 +52,7 @@ h3 {
     margin: 2px;
     margin-top: 10px;
     padding: 10px;
+    width: min-content;
 }
 
 h4 {
@@ -72,6 +65,7 @@ h4 {
     margin: 2px;
     margin-top: 5px;
     padding: 10px;
+    width: min-content;
 }
 
 h5 {
@@ -84,6 +78,7 @@ h5 {
     margin: 2px;
     margin-top: 5px;
     padding: 10px;
+    width: min-content;
 }
 
 h6 {
@@ -95,6 +90,17 @@ h6 {
     border-radius: 10px;
     margin: 2px;
     margin-top: 5px;
+    padding: 10px;
+    width: min-content;
+}
+
+p {
+    font-family: Cambria, serif;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 10px;
     padding: 10px;
 }
 
