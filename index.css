@@ -12,7 +12,7 @@
 }
 
 body {
-    font-size: 12px;
+    font-size: 18px;
     background-color: rgb(73, 13, 100);
 }
 
@@ -115,7 +115,7 @@ blockquote {
 }
 
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
     background-color: rgba(255, 255, 255, 0.2);
     border-style: 0px solid rgb(0, 0, 0);
     border-radius: 5px;
