@@ -12,8 +12,10 @@
 }
 
 html {
-    background-image: url("beach_bkg.jpg");
+    background: url("beach_bkg.jpg") no-repeat;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
     background-color: rgb(73, 13, 100);
 }
 
