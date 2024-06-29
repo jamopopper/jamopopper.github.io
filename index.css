@@ -123,8 +123,7 @@ tbody {
 
 }
 
-ol:not(:inside),
-ul:not(:inside) {
+th {
     font-family: Cambria, serif;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
@@ -134,7 +133,28 @@ ul:not(:inside) {
     padding: 2px;
 }
 
-code:not(:inside) {
+td {
+    font-family: Cambria, serif;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+}
+
+ol:not(ol ol),
+ul:not(ul ul) {
+    font-family: Cambria, serif;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+}
+
+code {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
@@ -161,6 +181,7 @@ a:link {
     border-radius: 5px;
     margin: 4px;
     padding: 2px;
+    transition-duration: 0.2s;
 }
 
 a:visited {
@@ -170,12 +191,14 @@ a:visited {
     border-radius: 5px;
     margin: 4px;
     padding: 2px;
+    transition-duration: 0.2s;
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     border-radius: 5px;
     margin: 2px;
     padding: 4px;
+    transition-duration: 0.2s;
 }
