@@ -141,7 +141,12 @@ ul:not(ul ul) {
     padding: 10px;
 }
 
-code:not(code pre) {
+
+li input[type="checkbox"] {
+    list-style-position: inside;
+}
+
+code:not(pre code) {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
