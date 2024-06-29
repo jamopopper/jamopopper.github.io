@@ -197,9 +197,10 @@ hr {
 a:link {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: 2px solid rgba(255, 255, 255, 0.2);
+    outline-offset: -2px;
     border-radius: 5px;
-    margin: 0px;
+    margin: 2px;
     padding: 1px 2px 0px 2px;
     transition-duration: 0.2s;
 }
@@ -207,19 +208,21 @@ a:link {
 a:visited {
     color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: 2px solid rgba(255, 255, 255, 0.2);
+    outline-offset: -2px;
     border-radius: 5px;
     margin: 2px;
-    padding: 1px 2px;
+    padding: 1px 2px 0px 2px;
     transition-duration: 0.2s;
 }
 
 a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0);
+    outline: 2px solid rgba(255, 255, 255, 0);
+    outline-offset: -2px;
     border-radius: 5px;
     margin: 2px;
-    padding: 1px 2px;
+    padding: 1px 2px 0px 2px;
     transition-duration: 0.2s;
 }
