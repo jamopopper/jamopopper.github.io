@@ -11,9 +11,13 @@
         src: url('NFMB.otf');
 }
 
+html {
+    background-color: rgb(49, 12, 97);
+
+}
+
 body {
     font-size: 70%;
-    background-color: linear-gradient(rgb(49, 12, 97), rgb(29, 8, 80));
 }
 
 p {
