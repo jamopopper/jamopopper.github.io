@@ -140,11 +140,6 @@ ol:not(ol ol), ul:not(ul ul) {
     padding: 10px;
 }
 
-
-li input[type="checkbox"] {
-    margin: 0px;
-}
-
 code:not(pre code) {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
