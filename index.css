@@ -12,132 +12,133 @@
 }
 
 html {
-    background-color: rgb(49, 12, 97);
+    background-color: linear-gradient(rgb(73, 13, 100), rgb(29, 4, 75));
 
 }
 
 body {
-    font-size: 70%;
+    font-size: 12px;
 }
 
 p {
     font-family: Cambria, serif;
-    font-size: 35%;
+    font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 h1 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 200%;
     color: rgba(255, 255, 255, 0.65);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 5%;
-    padding: 5%;
+    margin: 5px;
+    padding: 5px;
 }
 
 h2 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 85%;
+    font-size: 180%;
     color: rgba(255, 255, 255, 0.69);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 5%;
-    padding: 5%;
+    margin: 5px;
+    padding: 5px;
 }
 
 h3 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 70%;
+    font-size: 160%;
     color: rgba(255, 255, 255, 0.72);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 5%;
-    padding: 5%;
+    margin: 5px;
+    padding: 5px;
 }
 
 h4 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 55%;
+    font-size: 130%;
     color: rgba(255, 255, 255, 0.75);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 h5 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 50%;
+    font-size: 120%;
     color: rgba(255, 255, 255, 0.78);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 h6 {
     font-family: nfm;
     font-weight: bold;
-    font-size: 45%;
+    font-size: 110%;
     color: rgba(255, 255, 255, 0.81);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 table {
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 5%;
-    padding: 5%;
+    margin: 5px;
+    padding: 5px;
 }
 
 thead {
     font-family: Cambria, serif;
     font-weight: bold;
-    font-size: 40%;
+    font-size: 110%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5% solid rgba(0, 0, 0, 0.3);
-    margin: 2%;
-    padding: 2%;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    margin: 2px;
+    padding: 2px;
 }
 
 tbody {
     font-family: Cambria, serif;
-    font-size: 30%;
+    font-size: 90%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5% solid rgba(0, 0, 0, 0.3);
-    margin: 2%;
-    padding: 2%;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    margin: 2px;
+    padding: 2px;
 
 }
 
-ol,ul {
+ol > li,
+ul > li {
     font-family: Cambria, serif;
-    font-size: 35%;
+    font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 code {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 35%;
+    font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.1);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 pre {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 35%;
+    font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.3);
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
 }
