@@ -95,7 +95,7 @@ h6 {
 }
 
 p:not(blockquote p) {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
@@ -105,7 +105,7 @@ p:not(blockquote p) {
 }
 
 blockquote {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
@@ -124,11 +124,11 @@ table {
 }
 
 thead {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-weight: bold;
     font-size: 110%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5px solid rgb(0, 0, 0);
+    border-style: 0px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     margin: 2px;
@@ -136,10 +136,10 @@ thead {
 }
 
 tbody {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-size: 90%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5px solid rgb(0, 0, 0);
+    border-style: 0px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     margin: 2px;
@@ -148,13 +148,14 @@ tbody {
 }
 
 th, td, tr {
+    border-style: 0px solid rgb(0, 0, 0);
     border-radius: 5px;
     margin: 2px;
     padding: 10px;
 }
 
 ol:not(ol ol), ul:not(ul ul) {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-size: 100%;
     list-style-position: inside;
     color: rgba(255, 255, 255, 0.9);
@@ -166,7 +167,7 @@ ol:not(ol ol), ul:not(ul ul) {
 
 code:not(pre code) {
     font-family: 'Courier', Courier, monospace;
-    font-size: 100%;
+    font-size: 90%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -182,6 +183,12 @@ pre {
     border-radius: 5px;
     margin: 10px;
     padding: 4px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 2px;
+    padding: 2px;
 }
 
 a:link {
