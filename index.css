@@ -110,7 +110,7 @@ blockquote {
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-    margin: 10px -10px;
+    margin: 0px;
     padding: 10px 20px;
 }
 
@@ -172,7 +172,7 @@ code:not(pre code) {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: 2px;
-    padding: 2px;
+    padding: 2px 4px;
 }
 
 pre {
@@ -181,8 +181,8 @@ pre {
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin: 10px;
-    padding: 4px;
+    margin: 10px 20px;
+    padding: 4px 6px;
 }
 
 hr {
