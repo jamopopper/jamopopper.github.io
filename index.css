@@ -11,14 +11,8 @@
         src: url('NFMB.otf');
 }
 
-html {
-    /* background-color: rgb(73, 13, 100); */
-
-}
-
 body {
     font-size: 12px;
-    border-radius: 5px;
     background-color: rgb(73, 13, 100);
 }
 
@@ -27,6 +21,7 @@ p {
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -37,6 +32,7 @@ h1 {
     font-size: 200%;
     color: rgba(255, 255, 255, 0.65);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
 }
@@ -47,6 +43,7 @@ h2 {
     font-size: 180%;
     color: rgba(255, 255, 255, 0.69);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
 }
@@ -57,6 +54,7 @@ h3 {
     font-size: 160%;
     color: rgba(255, 255, 255, 0.72);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
 }
@@ -67,6 +65,7 @@ h4 {
     font-size: 130%;
     color: rgba(255, 255, 255, 0.75);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -77,6 +76,7 @@ h5 {
     font-size: 120%;
     color: rgba(255, 255, 255, 0.78);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -87,12 +87,14 @@ h6 {
     font-size: 110%;
     color: rgba(255, 255, 255, 0.81);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
 
 table {
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
 }
@@ -102,7 +104,9 @@ thead {
     font-weight: bold;
     font-size: 110%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5px solid rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -111,27 +115,31 @@ tbody {
     font-family: Cambria, serif;
     font-size: 90%;
     color: rgba(255, 255, 255, 0.9);
-    border: 5px solid rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 
 }
 
-ol > li,
-ul > li {
+ol:not(:inside),
+ul:not(:inside) {
     font-family: Cambria, serif;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
 
-code {
+code:not(:inside) {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -140,7 +148,8 @@ pre {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     margin: 2px;
     padding: 2px;
 }
@@ -148,7 +157,8 @@ pre {
 a:link {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
     margin: 4px;
     padding: 2px;
 }
@@ -156,14 +166,16 @@ a:link {
 a:visited {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
     margin: 4px;
     padding: 2px;
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
+    border-radius: 5px;
     margin: 2px;
     padding: 4px;
 }
