@@ -111,7 +111,7 @@ blockquote {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     margin: 10px 20px;
-    padding: 0px;
+    padding: 5px 15px;
 }
 
 table {
@@ -161,8 +161,8 @@ ol:not(ol ol), ul:not(ul ul) {
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 20px;
+    padding: 10px 15px;
 }
 
 code:not(pre code) {
