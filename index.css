@@ -19,10 +19,29 @@ html {
 }
 
 body {
+    transition: 0.2s;
     font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0px;
     padding: 8px
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 h1 {
@@ -211,7 +230,6 @@ a:link {
     border-radius: 5px;
     margin: 2px;
     padding: 2px 6px 0px 6px;
-    transition-duration: 0.2s;
 }
 
 a:visited {
@@ -222,7 +240,6 @@ a:visited {
     border-radius: 5px;
     margin: 2px;
     padding: 2px 6px 0px 6px;
-    transition-duration: 0.2s;
 }
 
 a:hover {
@@ -233,5 +250,4 @@ a:hover {
     border-radius: 5px;
     margin: 2px;
     padding: 2px 6px 0px 6px;
-    transition-duration: 0.2s;
 }
