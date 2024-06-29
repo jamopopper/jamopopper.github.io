@@ -94,7 +94,7 @@ h6 {
     width: max-content;
 }
 
-p {
+p:not(blockquote p) {
     font-family: Cambria, serif;
     font-size: 100%;
     color: rgba(255, 255, 255, 0.9);
@@ -117,7 +117,7 @@ blockquote {
 table {
     border-collapse: collapse;
     background-color: rgba(255, 255, 255, 0.2);
-    border-style: hidden;
+    border-style: 0px solid rgb(0, 0, 0);
     border-radius: 5px;
     margin: 10px;
     padding: 5px;
