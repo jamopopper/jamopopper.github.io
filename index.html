@@ -1,17 +1,5 @@
 <link rel="stylesheet" href="index.css">
 <script src="md-page.js"></script>
-<script>
-    document.getElementById('lightModeBtn').addEventListener('click', function() {
-        document.body.classList.remove('dark-mode');
-        document.body.classList.add('light-mode');
-    });
-
-    document.getElementById('darkModeBtn').addEventListener('click', function() {
-        document.body.classList.remove('light-mode');
-        document.body.classList.add('dark-mode');
-    });
-</script>
-
 
 <noscript>
 <title>Index Page</title>
@@ -123,3 +111,17 @@ Content in the first column | Content in the second column
 
 ## Mentions
 Can just do @oscarmorrison
+
+</noscript>
+
+<script>
+    document.getElementById('lightModeBtn').addEventListener('click', function() {
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add('light-mode');
+    });
+
+    document.getElementById('darkModeBtn').addEventListener('click', function() {
+        document.body.classList.remove('light-mode');
+        document.body.classList.add('dark-mode');
+    });
+</script>
