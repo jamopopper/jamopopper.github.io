@@ -4,9 +4,18 @@
 
 
 <noscript id="fallback">
-    <script src="README.md" type="text/plain"></script>
 </noscript>
 
+<script>
+    let mdFile = document.createElement('script');
+    mdFile.type = 'text/plain';
+    mdFile.src = 'README.md';
+    document.body.appendChild(mdFile);
+
+    mdFile.onload = function() {
+        document.getElementById('fallback').innerHTML = this.responseText;
+    };
+</script>
 
 <script>
     document.getElementById('lightModeBtn').addEventListener('click', function() {
