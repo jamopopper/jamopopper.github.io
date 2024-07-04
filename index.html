@@ -1,15 +1,27 @@
 <link rel="stylesheet" href="index.css">
-<!-- <script src="md-page.js"></script> -->
+<script src="md-page.js"></script>
 
 
 
 <noscript id="main_page">
+    <title>Index Page</title>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="theme-btns">
+            <button id="lightModeBtn" class="theme-btn">Light Mode</button>
+            <button id="darkModeBtn" class="theme-btn">Dark Mode</button>
+        </div>
+    </nav>
 </noscript>
 
 <script>
     fetch('README.md')
         .then(response => response.text())
-        .then(text => document.getElementById('main_page').textContent = text)
+        .then(text => document.getElementById('main_page').textContent += text)
         .catch(error => console.error('Error:', error));
 </script>
 
