@@ -5,12 +5,34 @@
 </noscript>
 
 <!-- Load the markdown file -->
+
 <script>
+    fetch('README.md')
+        .then(response => response.text())
+        .then(text => {
+            // Create a preformatted text block
+            const pre = document.createElement('pre');
+            pre.textContent = text;
+
+            // Get the content as a text string with newlines preserved
+            const formattedText = pre.textContent;
+
+            // Remove the pre element after extracting the text
+            pre.remove();
+
+            // Create a text node with the formatted text
+            const textNode = document.createTextNode(formattedText);
+            document.getElementById('main_page').appendChild(textNode);
+        })
+        .catch(error => console.error('Error:', error));
+</script>
+
+<!-- <script>
     fetch('README.md')
         .then(response => response.text())
         .then(text => document.getElementById('main_page').innerHTML += text)
         .catch(error => console.error('Error:', error));
-</script>
+</script> -->
 
 <!-- Load the script and interpret markdown-->
 <!-- <script src="md-page.js"></script> -->
