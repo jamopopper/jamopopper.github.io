@@ -16,7 +16,7 @@
             // Loop through lines and add each as a separate text node
             lines.forEach((line, index) => {
                 // Create a text node for each line
-                const textNode = document.createTextNode(line);
+                var textNode = document.createTextNode(line);
                 
                 // Add blank line for empty lines
                 if (line.length == 0) {
