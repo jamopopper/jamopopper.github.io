@@ -23,9 +23,9 @@
                 mainPageElement.appendChild(textNode);
 
                 // Add a newline after each line, except the last one
-                if (index < lines.length - 1) {
-                    mainPageElement.appendChild(document.createElement('br'));
-                }
+                // if (index < lines.length - 1) {
+                //     mainPageElement.appendChild(document.createElement('br'));
+                // }
             });
         })
         .catch(error => console.error('Error:', error));
