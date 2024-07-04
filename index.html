@@ -4,18 +4,9 @@
 
 
 <noscript id="fallback">
+    <script src="README.md" type="text/plain"></script>
 </noscript>
 
-<script>
-  const script = document.querySelector('script[src="README.md"]');
-  if (script) {
-    const fallback = document.getElementById('fallback');
-    if (fallback) {
-      fallback.innerHTML = script.innerHTML;
-      fallback.removeAttribute('id');
-    }
-  }
-</script>
 
 <script>
     document.getElementById('lightModeBtn').addEventListener('click', function() {
