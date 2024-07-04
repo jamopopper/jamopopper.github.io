@@ -3,18 +3,14 @@
 
 
 
-<noscript id="fallback">
+<noscript id="main_page">
 </noscript>
 
 <script>
-    let mdFile = document.createElement('script');
-    mdFile.type = 'text/plain';
-    mdFile.src = './README.md';
-    mdFile.body.appendChild(mdFile);
-
-    mdFile.onload = function() {
-        document.getElementById('fallback').innerHTML = this.responseText;
-    };
+    fetch('README.md')
+        .then(response => response.text())
+        .then(text => document.getElementById('main_page').textContent = text)
+        .catch(error => console.error('Error:', error));
 </script>
 
 <script>
