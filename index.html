@@ -3,8 +3,13 @@
 
 
 
+<noscript id="fallback">
+  <%= new File('README.md').text %>
+</noscript>
+
 <script>
-    document.write('<noscript>' + document.querySelector('script[src="README.md"]').innerHTML + '</noscript>');
+  document.getElementById('fallback').innerHTML = document.querySelector('script[src="README.md"]').innerHTML;
+  document.getElementById('fallback').removeAttribute('id');
 </script>
 
 <script>
