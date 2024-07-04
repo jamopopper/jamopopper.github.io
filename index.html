@@ -17,7 +17,11 @@
             lines.forEach((line, index) => {
                 // Create a text node for each line
                 const textNode = document.createTextNode(line);
-
+                
+                // Add blank line for empty lines
+                if (line.length == 0) {
+                    textNode = document.createTextNode('\n');
+                }
                 // Append the text node to the main_page element
                 mainPageElement.appendChild(textNode);
 
@@ -29,13 +33,6 @@
         })
         .catch(error => console.error('Error:', error));
 </script>
-
-<!-- <script>
-    fetch('README.md')
-        .then(response => response.text())
-        .then(text => document.getElementById('main_page').innerHTML += text)
-        .catch(error => console.error('Error:', error));
-</script> -->
 
 <!-- Load the script and interpret markdown-->
 <script src="md-page.js"></script>
