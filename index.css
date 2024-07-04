@@ -11,6 +11,10 @@
         src: url('NFMB.otf');
 }
 
+#content {
+    white-space: pre-wrap;
+}
+
 html {
     background: url("beach_bkg.jpg") no-repeat;
     background-size: cover;
