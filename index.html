@@ -10,7 +10,7 @@
     let mdFile = document.createElement('script');
     mdFile.type = 'text/plain';
     mdFile.src = './README.md';
-    document.body.appendChild(mdFile);
+    mdFile.body.appendChild(mdFile);
 
     mdFile.onload = function() {
         document.getElementById('fallback').innerHTML = this.responseText;
