@@ -10,19 +10,23 @@
     fetch('README.md')
         .then(response => response.text())
         .then(text => {
-            // Create a preformatted text block
-            const pre = document.createElement('pre');
-            pre.textContent = text;
+            // Split text by newlines
+            const lines = text.split('\n');
+            const mainPageElement = document.getElementById('main_page');
 
-            // Get the content as a text string with newlines preserved
-            const formattedText = pre.textContent;
+            // Loop through lines and add each as a separate text node
+            lines.forEach((line, index) => {
+                // Create a text node for each line
+                const textNode = document.createTextNode(line);
 
-            // Remove the pre element after extracting the text
-            pre.remove();
+                // Append the text node to the main_page element
+                mainPageElement.appendChild(textNode);
 
-            // Create a text node with the formatted text
-            const textNode = document.createTextNode(formattedText);
-            document.getElementById('main_page').appendChild(textNode);
+                // Add a newline after each line, except the last one
+                if (index < lines.length - 1) {
+                    mainPageElement.appendChild(document.createElement('br'));
+                }
+            });
         })
         .catch(error => console.error('Error:', error));
 </script>
