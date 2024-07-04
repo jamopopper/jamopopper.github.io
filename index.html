@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="index.css">
 <script src="md-page.js"></script>
 
-<noscript>
 <title>Index Page</title>
 <nav>
     <ul>
@@ -14,6 +13,9 @@
         <button id="darkModeBtn" class="theme-btn">Dark Mode</button>
     </div>
 </nav>
+
+<noscript>
+
 
 # [header one](#header-one)
 
@@ -113,6 +115,10 @@ Content in the first column | Content in the second column
 Can just do @oscarmorrison
 
 </noscript>
+
+<!-- <script>
+    document.write('<noscript>' + document.querySelector('script[src="README.md"]').innerHTML + '</noscript>');
+</script> -->
 
 <script>
     document.getElementById('lightModeBtn').addEventListener('click', function() {
