@@ -4,12 +4,17 @@
 
 
 <noscript id="fallback">
-  <%= new File('README.md').text %>
 </noscript>
 
 <script>
-  document.getElementById('fallback').innerHTML = document.querySelector('script[src="README.md"]').innerHTML;
-  document.getElementById('fallback').removeAttribute('id');
+  const script = document.querySelector('script[src="README.md"]');
+  if (script) {
+    const fallback = document.getElementById('fallback');
+    if (fallback) {
+      fallback.innerHTML = script.innerHTML;
+      fallback.removeAttribute('id');
+    }
+  }
 </script>
 
 <script>
