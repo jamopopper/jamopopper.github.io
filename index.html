@@ -5,13 +5,13 @@
 </noscript>
 
 <!-- Load the markdown file -->
-<script style="#content { white-space: pre-wrap; }">
+<script>
     fetch('README.md')
         .then(response => response.text())
-        .then(text => document.getElementById('main_page').innerHTML = text)
+        .then(text => document.getElementById('main_page').innerHTML += text)
         .catch(error => console.error('Error:', error));
 </script>
 
 <!-- Load the script and interpret markdown-->
-<!-- <script src="md-page.js"></script> -->
+<script src="md-page.js"></script>
 
